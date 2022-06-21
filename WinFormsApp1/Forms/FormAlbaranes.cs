@@ -3,21 +3,30 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Diagnostics;
-using System.Drawing.Printing;
 using GestionClientesAPP.domain;
+using System.Drawing.Printing;
 using Microsoft.Reporting.WinForms;
+using System.IO;
+using GestionClientesAPP.Persistence;
+using System.Linq;
 
 namespace GestionClientesAPP.Forms
 {
     public partial class FormAlbaranes : Form
     {
-
-        String[] articulos = { "LEVANTE", "ZEUS" };
+        GestionClientesContext context = new GestionClientesContext(); 
         Bitmap bmp; 
         public FormAlbaranes()
         {
             InitializeComponent();
-            CBarticulo.Items.AddRange(articulos);
+            List<Cliente> clientes1 = context.Clientes.ToList(); 
+            foreach (Cliente cliente in clientes1)
+            {
+                Object o = cliente.clienteID + " " + cliente.nombre;
+                CBCliente.Items.Add(o);
+            }
+            
+
 
         }
 
@@ -112,6 +121,21 @@ namespace GestionClientesAPP.Forms
 
         private void btnGrabar_Click(object sender, EventArgs e)
         {
+            Cliente cliente = (Cliente)CBCliente.SelectedItem;
+            String ciudadProvinciaCP = cliente.poblacion + cliente.provincia + cliente.CP;
+            List<LineaAlbaran> lineas = new List<LineaAlbaran>();
+            foreach (DataGridViewRow row in DGlineas.Rows)
+            {
+                LineaAlbaran linea = new LineaAlbaran(row.Cells[1].Value.ToString(), int.Parse(row.Cells[2].Value.ToString()), Double.Parse(row.Cells[2].Value.ToString()), Double.Parse(row.Cells[3].Value.ToString()), float.Parse(TBprecio.Text));
+                lineas.Add(linea);
+            }
+            Albaran albaran = new Albaran(DTPfecha.Value, TBalbaran.Text, cliente, TBdireccion.Text, ciudadProvinciaCP, lineas, RTBobservaciones.Text);
+            context.Albaranes.Add(albaran);
+            context.SaveChanges(); 
+                
+                
+
+
 
         }
 
@@ -153,7 +177,8 @@ namespace GestionClientesAPP.Forms
             {
                 PageSettings settings = new PageSettings(); 
                 LocalReport report = new LocalReport();
-                report.ReportEmbeddedResource = "InvoicesAPP.Reports.albaran.rdlc";
+                using var fs = new FileStream("Reports/albaran.rdlc", FileMode.Open);
+                report.LoadReportDefinition(fs);
                 ReportDataSource source = new ReportDataSource("lineas", lineas);
                 report.DataSources.Add(source);
                 report.SetParameters(p);
@@ -186,7 +211,8 @@ namespace GestionClientesAPP.Forms
 
         private void CBCliente_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            Cliente cliente = context.Clientes.Find(CBCliente.SelectedItem.ToString()[0]);
+            List<Articulo> articulos = cliente.articulos; 
         }
 
         private void CBarticulo_SelectedIndexChanged(object sender, EventArgs e)

@@ -8,13 +8,14 @@ namespace GestionClientesAPP.domain
 {
     public class LineaAlbaran
     {
-        public String concepto { get; set; }
+        public int LineaAlbaranID { get; set; }
+        public string concepto { get; set; }
         public int unidades { get; set; }
         public double ancho { get; set; }
         public double alto { get; set; }
         public float importe { get; set; }
 
-        public LineaAlbaran(String concepto, int unidades, double ancho, double alto, float importe)
+        public LineaAlbaran(string concepto, int unidades, double ancho, double alto, float importe)
         {
             this.concepto = concepto;
             this.unidades = unidades;

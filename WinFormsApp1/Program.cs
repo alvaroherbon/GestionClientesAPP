@@ -1,11 +1,13 @@
 using GestionClientesAPP;
+using GestionClientesAPP.domain;
+using GestionClientesAPP.Persistence;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsApp1
+namespace GestionClientesAPP
 {
     static class Program
     {
@@ -15,6 +17,8 @@ namespace WinFormsApp1
         [STAThread]
         static void Main()
         {
+
+            
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

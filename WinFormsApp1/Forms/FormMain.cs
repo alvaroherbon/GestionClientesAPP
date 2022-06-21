@@ -65,13 +65,13 @@ namespace GestionClientesAPP
         private void btnClientes_Click_1(object sender, EventArgs e)
         {
             btnSelected(sender);
-            // openForm(new Forms.FormClientes(), sender);
+            openForm(new Forms.FormClientes(), sender);
         }
 
         private void btnArticulos_Click_1(object sender, EventArgs e)
         {
             btnSelected(sender);
-            //openForm(new Forms.FormArticulos(), sender);
+            openForm(new Forms.FormArticulos(), sender);
         }
 
         private void btnAlbaranes_Click_1(object sender, EventArgs e)

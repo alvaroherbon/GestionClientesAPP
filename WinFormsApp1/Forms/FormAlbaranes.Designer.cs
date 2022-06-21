@@ -129,10 +129,12 @@ namespace GestionClientesAPP.Forms
             // 
             this.groupBox1.Controls.Add(this.TBalbaran);
             this.groupBox1.Controls.Add(this.CBalbaran);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(13, 67);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.groupBox1.Location = new System.Drawing.Point(15, 77);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(156, 51);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox1.Size = new System.Drawing.Size(182, 59);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nº Albaran";
@@ -140,26 +142,29 @@ namespace GestionClientesAPP.Forms
             // TBalbaran
             // 
             this.TBalbaran.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBalbaran.Location = new System.Drawing.Point(81, 22);
+            this.TBalbaran.Location = new System.Drawing.Point(94, 25);
+            this.TBalbaran.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBalbaran.Name = "TBalbaran";
-            this.TBalbaran.Size = new System.Drawing.Size(68, 21);
+            this.TBalbaran.Size = new System.Drawing.Size(79, 21);
             this.TBalbaran.TabIndex = 0;
             this.TBalbaran.TabStop = false;
             // 
             // CBalbaran
             // 
             this.CBalbaran.FormattingEnabled = true;
-            this.CBalbaran.Location = new System.Drawing.Point(7, 20);
+            this.CBalbaran.Location = new System.Drawing.Point(8, 23);
+            this.CBalbaran.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CBalbaran.Name = "CBalbaran";
-            this.CBalbaran.Size = new System.Drawing.Size(68, 23);
+            this.CBalbaran.Size = new System.Drawing.Size(79, 23);
             this.CBalbaran.TabIndex = 0;
             this.CBalbaran.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label1.Location = new System.Drawing.Point(13, 132);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(15, 152);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 17);
             this.label1.TabIndex = 10;
@@ -168,17 +173,19 @@ namespace GestionClientesAPP.Forms
             // DTPfecha
             // 
             this.DTPfecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DTPfecha.Location = new System.Drawing.Point(67, 132);
+            this.DTPfecha.Location = new System.Drawing.Point(78, 152);
+            this.DTPfecha.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.DTPfecha.Name = "DTPfecha";
-            this.DTPfecha.Size = new System.Drawing.Size(102, 20);
+            this.DTPfecha.Size = new System.Drawing.Size(118, 23);
             this.DTPfecha.TabIndex = 0;
             this.DTPfecha.TabStop = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label2.Location = new System.Drawing.Point(183, 77);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(214, 89);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 17);
             this.label2.TabIndex = 12;
@@ -187,9 +194,10 @@ namespace GestionClientesAPP.Forms
             // CBCliente
             // 
             this.CBCliente.FormattingEnabled = true;
-            this.CBCliente.Location = new System.Drawing.Point(256, 77);
+            this.CBCliente.Location = new System.Drawing.Point(299, 89);
+            this.CBCliente.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CBCliente.Name = "CBCliente";
-            this.CBCliente.Size = new System.Drawing.Size(125, 21);
+            this.CBCliente.Size = new System.Drawing.Size(145, 23);
             this.CBCliente.TabIndex = 13;
             this.CBCliente.TabStop = false;
             this.CBCliente.SelectedIndexChanged += new System.EventHandler(this.CBCliente_SelectedIndexChanged);
@@ -197,8 +205,9 @@ namespace GestionClientesAPP.Forms
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label3.Location = new System.Drawing.Point(183, 104);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(214, 120);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 17);
             this.label3.TabIndex = 14;
@@ -207,17 +216,19 @@ namespace GestionClientesAPP.Forms
             // CBformaPago
             // 
             this.CBformaPago.FormattingEnabled = true;
-            this.CBformaPago.Location = new System.Drawing.Point(256, 163);
+            this.CBformaPago.Location = new System.Drawing.Point(299, 188);
+            this.CBformaPago.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CBformaPago.Name = "CBformaPago";
-            this.CBformaPago.Size = new System.Drawing.Size(103, 21);
+            this.CBformaPago.Size = new System.Drawing.Size(119, 23);
             this.CBformaPago.TabIndex = 0;
             this.CBformaPago.TabStop = false;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label4.Location = new System.Drawing.Point(183, 135);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(214, 156);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(72, 17);
             this.label4.TabIndex = 16;
@@ -226,8 +237,9 @@ namespace GestionClientesAPP.Forms
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label5.Location = new System.Drawing.Point(183, 163);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(214, 188);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 17);
             this.label5.TabIndex = 17;
@@ -236,26 +248,29 @@ namespace GestionClientesAPP.Forms
             // TBdireccion
             // 
             this.TBdireccion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBdireccion.Location = new System.Drawing.Point(257, 105);
+            this.TBdireccion.Location = new System.Drawing.Point(300, 121);
+            this.TBdireccion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBdireccion.Name = "TBdireccion";
-            this.TBdireccion.Size = new System.Drawing.Size(657, 20);
+            this.TBdireccion.Size = new System.Drawing.Size(766, 23);
             this.TBdireccion.TabIndex = 0;
             this.TBdireccion.TabStop = false;
             // 
             // TBcodpostal
             // 
             this.TBcodpostal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBcodpostal.Location = new System.Drawing.Point(257, 135);
+            this.TBcodpostal.Location = new System.Drawing.Point(300, 156);
+            this.TBcodpostal.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBcodpostal.Name = "TBcodpostal";
-            this.TBcodpostal.Size = new System.Drawing.Size(103, 20);
+            this.TBcodpostal.Size = new System.Drawing.Size(120, 23);
             this.TBcodpostal.TabIndex = 0;
             this.TBcodpostal.TabStop = false;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label6.Location = new System.Drawing.Point(366, 135);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(427, 156);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(70, 17);
             this.label6.TabIndex = 20;
@@ -264,35 +279,39 @@ namespace GestionClientesAPP.Forms
             // TBpoblacion
             // 
             this.TBpoblacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBpoblacion.Location = new System.Drawing.Point(442, 134);
+            this.TBpoblacion.Location = new System.Drawing.Point(516, 155);
+            this.TBpoblacion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBpoblacion.Name = "TBpoblacion";
-            this.TBpoblacion.Size = new System.Drawing.Size(132, 20);
+            this.TBpoblacion.Size = new System.Drawing.Size(154, 23);
             this.TBpoblacion.TabIndex = 0;
             this.TBpoblacion.TabStop = false;
             // 
             // TBformaPago
             // 
             this.TBformaPago.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBformaPago.Location = new System.Drawing.Point(369, 163);
+            this.TBformaPago.Location = new System.Drawing.Point(430, 188);
+            this.TBformaPago.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBformaPago.Name = "TBformaPago";
-            this.TBformaPago.Size = new System.Drawing.Size(205, 20);
+            this.TBformaPago.Size = new System.Drawing.Size(239, 23);
             this.TBformaPago.TabIndex = 0;
             this.TBformaPago.TabStop = false;
             // 
             // TBcliente
             // 
             this.TBcliente.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBcliente.Location = new System.Drawing.Point(387, 77);
+            this.TBcliente.Location = new System.Drawing.Point(451, 89);
+            this.TBcliente.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBcliente.Name = "TBcliente";
-            this.TBcliente.Size = new System.Drawing.Size(527, 20);
+            this.TBcliente.Size = new System.Drawing.Size(614, 23);
             this.TBcliente.TabIndex = 0;
             this.TBcliente.TabStop = false;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label7.Location = new System.Drawing.Point(580, 135);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(677, 156);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(66, 17);
             this.label7.TabIndex = 24;
@@ -301,17 +320,19 @@ namespace GestionClientesAPP.Forms
             // TBprovincia
             // 
             this.TBprovincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBprovincia.Location = new System.Drawing.Point(652, 135);
+            this.TBprovincia.Location = new System.Drawing.Point(761, 156);
+            this.TBprovincia.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBprovincia.Name = "TBprovincia";
-            this.TBprovincia.Size = new System.Drawing.Size(109, 20);
+            this.TBprovincia.Size = new System.Drawing.Size(127, 23);
             this.TBprovincia.TabIndex = 0;
             this.TBprovincia.TabStop = false;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label8.Location = new System.Drawing.Point(767, 136);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(895, 157);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 17);
             this.label8.TabIndex = 26;
@@ -320,18 +341,20 @@ namespace GestionClientesAPP.Forms
             // TBpais
             // 
             this.TBpais.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBpais.Location = new System.Drawing.Point(808, 137);
+            this.TBpais.Location = new System.Drawing.Point(943, 158);
+            this.TBpais.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBpais.Name = "TBpais";
-            this.TBpais.Size = new System.Drawing.Size(106, 20);
+            this.TBpais.Size = new System.Drawing.Size(123, 23);
             this.TBpais.TabIndex = 0;
             this.TBpais.TabStop = false;
             // 
             // ChekBoxPoseeIVA
             // 
             this.ChekBoxPoseeIVA.AutoSize = true;
-            this.ChekBoxPoseeIVA.Location = new System.Drawing.Point(596, 163);
+            this.ChekBoxPoseeIVA.Location = new System.Drawing.Point(695, 188);
+            this.ChekBoxPoseeIVA.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ChekBoxPoseeIVA.Name = "ChekBoxPoseeIVA";
-            this.ChekBoxPoseeIVA.Size = new System.Drawing.Size(76, 17);
+            this.ChekBoxPoseeIVA.Size = new System.Drawing.Size(77, 19);
             this.ChekBoxPoseeIVA.TabIndex = 0;
             this.ChekBoxPoseeIVA.TabStop = false;
             this.ChekBoxPoseeIVA.Text = "Posee IVA";
@@ -340,9 +363,10 @@ namespace GestionClientesAPP.Forms
             // CheckBoxPoseeRecargo
             // 
             this.CheckBoxPoseeRecargo.AutoSize = true;
-            this.CheckBoxPoseeRecargo.Location = new System.Drawing.Point(680, 163);
+            this.CheckBoxPoseeRecargo.Location = new System.Drawing.Point(793, 188);
+            this.CheckBoxPoseeRecargo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CheckBoxPoseeRecargo.Name = "CheckBoxPoseeRecargo";
-            this.CheckBoxPoseeRecargo.Size = new System.Drawing.Size(100, 17);
+            this.CheckBoxPoseeRecargo.Size = new System.Drawing.Size(103, 19);
             this.CheckBoxPoseeRecargo.TabIndex = 0;
             this.CheckBoxPoseeRecargo.TabStop = false;
             this.CheckBoxPoseeRecargo.Text = "Posee Recargo";
@@ -382,9 +406,11 @@ namespace GestionClientesAPP.Forms
             this.groupBox2.Controls.Add(this.CBarticulo);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.DGlineas);
-            this.groupBox2.Location = new System.Drawing.Point(13, 190);
+            this.groupBox2.Location = new System.Drawing.Point(15, 219);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1134, 431);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox2.Size = new System.Drawing.Size(1323, 497);
             this.groupBox2.TabIndex = 30;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Lineas";
@@ -392,35 +418,39 @@ namespace GestionClientesAPP.Forms
             // textBox21
             // 
             this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox21.Location = new System.Drawing.Point(1028, 391);
+            this.textBox21.Location = new System.Drawing.Point(1199, 451);
+            this.textBox21.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(59, 20);
+            this.textBox21.Size = new System.Drawing.Size(68, 23);
             this.textBox21.TabIndex = 0;
             this.textBox21.TabStop = false;
             // 
             // TBivaValor
             // 
             this.TBivaValor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBivaValor.Location = new System.Drawing.Point(923, 391);
+            this.TBivaValor.Location = new System.Drawing.Point(1077, 451);
+            this.TBivaValor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBivaValor.Name = "TBivaValor";
-            this.TBivaValor.Size = new System.Drawing.Size(100, 20);
+            this.TBivaValor.Size = new System.Drawing.Size(116, 23);
             this.TBivaValor.TabIndex = 0;
             this.TBivaValor.TabStop = false;
             // 
             // TBivaPorcentaje
             // 
             this.TBivaPorcentaje.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBivaPorcentaje.Location = new System.Drawing.Point(687, 391);
+            this.TBivaPorcentaje.Location = new System.Drawing.Point(802, 451);
+            this.TBivaPorcentaje.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBivaPorcentaje.Name = "TBivaPorcentaje";
-            this.TBivaPorcentaje.Size = new System.Drawing.Size(230, 20);
+            this.TBivaPorcentaje.Size = new System.Drawing.Size(268, 23);
             this.TBivaPorcentaje.TabIndex = 0;
             this.TBivaPorcentaje.TabStop = false;
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label21.Location = new System.Drawing.Point(567, 371);
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label21.Location = new System.Drawing.Point(662, 428);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(29, 17);
             this.label21.TabIndex = 39;
@@ -429,9 +459,10 @@ namespace GestionClientesAPP.Forms
             // CBiva
             // 
             this.CBiva.FormattingEnabled = true;
-            this.CBiva.Location = new System.Drawing.Point(570, 391);
+            this.CBiva.Location = new System.Drawing.Point(665, 451);
+            this.CBiva.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CBiva.Name = "CBiva";
-            this.CBiva.Size = new System.Drawing.Size(111, 21);
+            this.CBiva.Size = new System.Drawing.Size(129, 23);
             this.CBiva.TabIndex = 0;
             this.CBiva.TabStop = false;
             // 
@@ -440,9 +471,10 @@ namespace GestionClientesAPP.Forms
             this.btnEliminarLinea.FlatAppearance.BorderSize = 0;
             this.btnEliminarLinea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminarLinea.Image = global::GestionClientesAPP.Properties.Resources.cross_free_icon_font__1_;
-            this.btnEliminarLinea.Location = new System.Drawing.Point(1093, 239);
+            this.btnEliminarLinea.Location = new System.Drawing.Point(1275, 276);
+            this.btnEliminarLinea.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEliminarLinea.Name = "btnEliminarLinea";
-            this.btnEliminarLinea.Size = new System.Drawing.Size(35, 32);
+            this.btnEliminarLinea.Size = new System.Drawing.Size(41, 37);
             this.btnEliminarLinea.TabIndex = 0;
             this.btnEliminarLinea.TabStop = false;
             this.btnEliminarLinea.UseVisualStyleBackColor = true;
@@ -451,9 +483,10 @@ namespace GestionClientesAPP.Forms
             // TBtotal
             // 
             this.TBtotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBtotal.Location = new System.Drawing.Point(923, 348);
+            this.TBtotal.Location = new System.Drawing.Point(1077, 402);
+            this.TBtotal.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBtotal.Name = "TBtotal";
-            this.TBtotal.Size = new System.Drawing.Size(164, 20);
+            this.TBtotal.Size = new System.Drawing.Size(191, 23);
             this.TBtotal.TabIndex = 0;
             this.TBtotal.TabStop = false;
             // 
@@ -462,9 +495,10 @@ namespace GestionClientesAPP.Forms
             this.btnDeshacerLinea.FlatAppearance.BorderSize = 0;
             this.btnDeshacerLinea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeshacerLinea.Image = global::GestionClientesAPP.Properties.Resources.undo_alt_free_icon_font;
-            this.btnDeshacerLinea.Location = new System.Drawing.Point(1093, 181);
+            this.btnDeshacerLinea.Location = new System.Drawing.Point(1275, 209);
+            this.btnDeshacerLinea.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnDeshacerLinea.Name = "btnDeshacerLinea";
-            this.btnDeshacerLinea.Size = new System.Drawing.Size(35, 33);
+            this.btnDeshacerLinea.Size = new System.Drawing.Size(41, 38);
             this.btnDeshacerLinea.TabIndex = 0;
             this.btnDeshacerLinea.TabStop = false;
             this.btnDeshacerLinea.UseVisualStyleBackColor = true;
@@ -473,9 +507,10 @@ namespace GestionClientesAPP.Forms
             // TBneto
             // 
             this.TBneto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBneto.Location = new System.Drawing.Point(783, 348);
+            this.TBneto.Location = new System.Drawing.Point(913, 402);
+            this.TBneto.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBneto.Name = "TBneto";
-            this.TBneto.Size = new System.Drawing.Size(134, 20);
+            this.TBneto.Size = new System.Drawing.Size(156, 23);
             this.TBneto.TabIndex = 0;
             this.TBneto.TabStop = false;
             // 
@@ -484,9 +519,10 @@ namespace GestionClientesAPP.Forms
             this.btnGuardarLinea.FlatAppearance.BorderSize = 0;
             this.btnGuardarLinea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarLinea.Image = global::GestionClientesAPP.Properties.Resources.disk_free_icon_font;
-            this.btnGuardarLinea.Location = new System.Drawing.Point(1093, 133);
+            this.btnGuardarLinea.Location = new System.Drawing.Point(1275, 153);
+            this.btnGuardarLinea.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnGuardarLinea.Name = "btnGuardarLinea";
-            this.btnGuardarLinea.Size = new System.Drawing.Size(35, 32);
+            this.btnGuardarLinea.Size = new System.Drawing.Size(41, 37);
             this.btnGuardarLinea.TabIndex = 5;
             this.btnGuardarLinea.UseVisualStyleBackColor = true;
             this.btnGuardarLinea.Click += new System.EventHandler(this.btnGuardarLinea_Click);
@@ -494,9 +530,10 @@ namespace GestionClientesAPP.Forms
             // TBdescuento
             // 
             this.TBdescuento.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBdescuento.Location = new System.Drawing.Point(687, 348);
+            this.TBdescuento.Location = new System.Drawing.Point(802, 402);
+            this.TBdescuento.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBdescuento.Name = "TBdescuento";
-            this.TBdescuento.Size = new System.Drawing.Size(89, 20);
+            this.TBdescuento.Size = new System.Drawing.Size(104, 23);
             this.TBdescuento.TabIndex = 0;
             this.TBdescuento.TabStop = false;
             // 
@@ -505,9 +542,10 @@ namespace GestionClientesAPP.Forms
             this.btnModificarLinea.FlatAppearance.BorderSize = 0;
             this.btnModificarLinea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModificarLinea.Image = global::GestionClientesAPP.Properties.Resources.pencil_free_icon_font;
-            this.btnModificarLinea.Location = new System.Drawing.Point(1093, 86);
+            this.btnModificarLinea.Location = new System.Drawing.Point(1275, 99);
+            this.btnModificarLinea.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnModificarLinea.Name = "btnModificarLinea";
-            this.btnModificarLinea.Size = new System.Drawing.Size(35, 32);
+            this.btnModificarLinea.Size = new System.Drawing.Size(41, 37);
             this.btnModificarLinea.TabIndex = 0;
             this.btnModificarLinea.TabStop = false;
             this.btnModificarLinea.UseVisualStyleBackColor = true;
@@ -516,18 +554,20 @@ namespace GestionClientesAPP.Forms
             // TBbruto
             // 
             this.TBbruto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBbruto.Location = new System.Drawing.Point(560, 349);
+            this.TBbruto.Location = new System.Drawing.Point(653, 403);
+            this.TBbruto.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBbruto.Name = "TBbruto";
-            this.TBbruto.Size = new System.Drawing.Size(121, 20);
+            this.TBbruto.Size = new System.Drawing.Size(141, 23);
             this.TBbruto.TabIndex = 0;
             this.TBbruto.TabStop = false;
             // 
             // TBdescuento1
             // 
             this.TBdescuento1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBdescuento1.Location = new System.Drawing.Point(502, 349);
+            this.TBdescuento1.Location = new System.Drawing.Point(586, 403);
+            this.TBdescuento1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBdescuento1.Name = "TBdescuento1";
-            this.TBdescuento1.Size = new System.Drawing.Size(51, 20);
+            this.TBdescuento1.Size = new System.Drawing.Size(59, 23);
             this.TBdescuento1.TabIndex = 0;
             this.TBdescuento1.TabStop = false;
             this.TBdescuento1.TextChanged += new System.EventHandler(this.TBdescuento1_TextChanged);
@@ -535,9 +575,10 @@ namespace GestionClientesAPP.Forms
             // TBprecio
             // 
             this.TBprecio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBprecio.Location = new System.Drawing.Point(429, 348);
+            this.TBprecio.Location = new System.Drawing.Point(500, 402);
+            this.TBprecio.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBprecio.Name = "TBprecio";
-            this.TBprecio.Size = new System.Drawing.Size(67, 20);
+            this.TBprecio.Size = new System.Drawing.Size(78, 23);
             this.TBprecio.TabIndex = 0;
             this.TBprecio.TabStop = false;
             this.TBprecio.TextChanged += new System.EventHandler(this.TBprecio_TextChanged);
@@ -545,35 +586,39 @@ namespace GestionClientesAPP.Forms
             // TBalto
             // 
             this.TBalto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBalto.Location = new System.Drawing.Point(340, 348);
+            this.TBalto.Location = new System.Drawing.Point(397, 402);
+            this.TBalto.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBalto.Name = "TBalto";
-            this.TBalto.Size = new System.Drawing.Size(83, 20);
+            this.TBalto.Size = new System.Drawing.Size(96, 23);
             this.TBalto.TabIndex = 3;
             this.TBalto.TextChanged += new System.EventHandler(this.TBalto_TextChanged);
             // 
             // TBancho
             // 
             this.TBancho.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBancho.Location = new System.Drawing.Point(248, 348);
+            this.TBancho.Location = new System.Drawing.Point(289, 402);
+            this.TBancho.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBancho.Name = "TBancho";
-            this.TBancho.Size = new System.Drawing.Size(86, 20);
+            this.TBancho.Size = new System.Drawing.Size(100, 23);
             this.TBancho.TabIndex = 2;
             this.TBancho.TextChanged += new System.EventHandler(this.TBancho_TextChanged);
             // 
             // TBunidad
             // 
             this.TBunidad.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBunidad.Location = new System.Drawing.Point(155, 348);
+            this.TBunidad.Location = new System.Drawing.Point(181, 402);
+            this.TBunidad.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBunidad.Name = "TBunidad";
-            this.TBunidad.Size = new System.Drawing.Size(87, 20);
+            this.TBunidad.Size = new System.Drawing.Size(101, 23);
             this.TBunidad.TabIndex = 1;
             this.TBunidad.TextChanged += new System.EventHandler(this.TBunidad_TextChanged);
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(920, 328);
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(1073, 378);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(46, 18);
             this.label19.TabIndex = 28;
@@ -582,8 +627,9 @@ namespace GestionClientesAPP.Forms
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label18.Location = new System.Drawing.Point(782, 328);
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(912, 378);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(38, 17);
             this.label18.TabIndex = 27;
@@ -592,8 +638,9 @@ namespace GestionClientesAPP.Forms
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label17.Location = new System.Drawing.Point(684, 328);
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(798, 378);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(34, 17);
             this.label17.TabIndex = 26;
@@ -602,8 +649,9 @@ namespace GestionClientesAPP.Forms
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label16.Location = new System.Drawing.Point(557, 329);
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label16.Location = new System.Drawing.Point(650, 380);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(42, 17);
             this.label16.TabIndex = 25;
@@ -612,8 +660,9 @@ namespace GestionClientesAPP.Forms
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label15.Location = new System.Drawing.Point(499, 329);
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label15.Location = new System.Drawing.Point(582, 380);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(46, 17);
             this.label15.TabIndex = 24;
@@ -622,8 +671,9 @@ namespace GestionClientesAPP.Forms
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label14.Location = new System.Drawing.Point(426, 328);
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label14.Location = new System.Drawing.Point(497, 378);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(48, 17);
             this.label14.TabIndex = 23;
@@ -632,8 +682,9 @@ namespace GestionClientesAPP.Forms
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label13.Location = new System.Drawing.Point(337, 328);
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label13.Location = new System.Drawing.Point(393, 378);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(32, 17);
             this.label13.TabIndex = 22;
@@ -642,8 +693,9 @@ namespace GestionClientesAPP.Forms
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label12.Location = new System.Drawing.Point(245, 329);
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label12.Location = new System.Drawing.Point(286, 380);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(48, 17);
             this.label12.TabIndex = 21;
@@ -652,8 +704,9 @@ namespace GestionClientesAPP.Forms
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label11.Location = new System.Drawing.Point(153, 328);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label11.Location = new System.Drawing.Point(178, 378);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(53, 17);
             this.label11.TabIndex = 20;
@@ -662,17 +715,19 @@ namespace GestionClientesAPP.Forms
             // TBdescripcion
             // 
             this.TBdescripcion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBdescripcion.Location = new System.Drawing.Point(10, 392);
+            this.TBdescripcion.Location = new System.Drawing.Point(12, 452);
+            this.TBdescripcion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBdescripcion.Name = "TBdescripcion";
-            this.TBdescripcion.Size = new System.Drawing.Size(551, 20);
+            this.TBdescripcion.Size = new System.Drawing.Size(642, 23);
             this.TBdescripcion.TabIndex = 4;
             this.TBdescripcion.TextChanged += new System.EventHandler(this.TBdescripcion_TextChanged);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label10.Location = new System.Drawing.Point(7, 372);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label10.Location = new System.Drawing.Point(8, 429);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(133, 17);
             this.label10.TabIndex = 3;
@@ -681,9 +736,10 @@ namespace GestionClientesAPP.Forms
             // CBarticulo
             // 
             this.CBarticulo.FormattingEnabled = true;
-            this.CBarticulo.Location = new System.Drawing.Point(10, 348);
+            this.CBarticulo.Location = new System.Drawing.Point(12, 402);
+            this.CBarticulo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CBarticulo.Name = "CBarticulo";
-            this.CBarticulo.Size = new System.Drawing.Size(140, 21);
+            this.CBarticulo.Size = new System.Drawing.Size(163, 23);
             this.CBarticulo.TabIndex = 2;
             this.CBarticulo.TabStop = false;
             this.CBarticulo.SelectedIndexChanged += new System.EventHandler(this.CBarticulo_SelectedIndexChanged);
@@ -691,8 +747,9 @@ namespace GestionClientesAPP.Forms
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label9.Location = new System.Drawing.Point(7, 328);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(8, 378);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(55, 17);
             this.label9.TabIndex = 1;
@@ -713,9 +770,10 @@ namespace GestionClientesAPP.Forms
             this.Ancho,
             this.Alto});
             this.DGlineas.GridColor = System.Drawing.Color.Black;
-            this.DGlineas.Location = new System.Drawing.Point(9, 17);
+            this.DGlineas.Location = new System.Drawing.Point(10, 20);
+            this.DGlineas.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.DGlineas.Name = "DGlineas";
-            this.DGlineas.Size = new System.Drawing.Size(1078, 308);
+            this.DGlineas.Size = new System.Drawing.Size(1258, 355);
             this.DGlineas.TabIndex = 0;
             this.DGlineas.TabStop = false;
             // 
@@ -748,9 +806,10 @@ namespace GestionClientesAPP.Forms
             // 
             this.btnGenFactura.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnGenFactura.Image = global::GestionClientesAPP.Properties.Resources.book_alt_free_icon_font;
-            this.btnGenFactura.Location = new System.Drawing.Point(839, 12);
+            this.btnGenFactura.Location = new System.Drawing.Point(979, 14);
+            this.btnGenFactura.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnGenFactura.Name = "btnGenFactura";
-            this.btnGenFactura.Size = new System.Drawing.Size(76, 54);
+            this.btnGenFactura.Size = new System.Drawing.Size(89, 62);
             this.btnGenFactura.TabIndex = 8;
             this.btnGenFactura.TabStop = false;
             this.btnGenFactura.Text = "Gen.Factura";
@@ -762,9 +821,10 @@ namespace GestionClientesAPP.Forms
             // 
             this.btnImpRapida.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnImpRapida.Image = global::GestionClientesAPP.Properties.Resources.paper_plane_free_icon_font;
-            this.btnImpRapida.Location = new System.Drawing.Point(758, 12);
+            this.btnImpRapida.Location = new System.Drawing.Point(884, 14);
+            this.btnImpRapida.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnImpRapida.Name = "btnImpRapida";
-            this.btnImpRapida.Size = new System.Drawing.Size(75, 54);
+            this.btnImpRapida.Size = new System.Drawing.Size(88, 62);
             this.btnImpRapida.TabIndex = 7;
             this.btnImpRapida.TabStop = false;
             this.btnImpRapida.Text = "Imp.Rapida";
@@ -776,9 +836,10 @@ namespace GestionClientesAPP.Forms
             // 
             this.btnImprimir.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnImprimir.Image = global::GestionClientesAPP.Properties.Resources.print_free_icon_font;
-            this.btnImprimir.Location = new System.Drawing.Point(677, 12);
+            this.btnImprimir.Location = new System.Drawing.Point(790, 14);
+            this.btnImprimir.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnImprimir.Name = "btnImprimir";
-            this.btnImprimir.Size = new System.Drawing.Size(75, 54);
+            this.btnImprimir.Size = new System.Drawing.Size(88, 62);
             this.btnImprimir.TabIndex = 6;
             this.btnImprimir.TabStop = false;
             this.btnImprimir.Text = "Imprimir";
@@ -790,9 +851,10 @@ namespace GestionClientesAPP.Forms
             // 
             this.btnGrabar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnGrabar.Image = global::GestionClientesAPP.Properties.Resources.disk_free_icon_font;
-            this.btnGrabar.Location = new System.Drawing.Point(596, 12);
+            this.btnGrabar.Location = new System.Drawing.Point(695, 14);
+            this.btnGrabar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(75, 54);
+            this.btnGrabar.Size = new System.Drawing.Size(88, 62);
             this.btnGrabar.TabIndex = 0;
             this.btnGrabar.TabStop = false;
             this.btnGrabar.Text = "Guardar";
@@ -803,12 +865,13 @@ namespace GestionClientesAPP.Forms
             // btnDeshacer
             // 
             this.btnDeshacer.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnDeshacer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeshacer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnDeshacer.ForeColor = System.Drawing.Color.Black;
             this.btnDeshacer.Image = global::GestionClientesAPP.Properties.Resources.undo_alt_free_icon_font;
-            this.btnDeshacer.Location = new System.Drawing.Point(515, 12);
+            this.btnDeshacer.Location = new System.Drawing.Point(601, 14);
+            this.btnDeshacer.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnDeshacer.Name = "btnDeshacer";
-            this.btnDeshacer.Size = new System.Drawing.Size(75, 54);
+            this.btnDeshacer.Size = new System.Drawing.Size(88, 62);
             this.btnDeshacer.TabIndex = 0;
             this.btnDeshacer.TabStop = false;
             this.btnDeshacer.Text = "Deshacer";
@@ -820,9 +883,10 @@ namespace GestionClientesAPP.Forms
             // 
             this.btnBuscar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnBuscar.Image = global::GestionClientesAPP.Properties.Resources.search_free_icon_font;
-            this.btnBuscar.Location = new System.Drawing.Point(434, 12);
+            this.btnBuscar.Location = new System.Drawing.Point(506, 14);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 54);
+            this.btnBuscar.Size = new System.Drawing.Size(88, 62);
             this.btnBuscar.TabIndex = 0;
             this.btnBuscar.TabStop = false;
             this.btnBuscar.Text = "Buscar";
@@ -834,9 +898,10 @@ namespace GestionClientesAPP.Forms
             // 
             this.btnEliminar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnEliminar.Image = global::GestionClientesAPP.Properties.Resources.cross_free_icon_font__1_;
-            this.btnEliminar.Location = new System.Drawing.Point(353, 12);
+            this.btnEliminar.Location = new System.Drawing.Point(412, 14);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 54);
+            this.btnEliminar.Size = new System.Drawing.Size(88, 62);
             this.btnEliminar.TabIndex = 0;
             this.btnEliminar.TabStop = false;
             this.btnEliminar.Text = "Eliminar";
@@ -848,9 +913,10 @@ namespace GestionClientesAPP.Forms
             // 
             this.btnModificar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnModificar.Image = global::GestionClientesAPP.Properties.Resources.pencil_free_icon_font;
-            this.btnModificar.Location = new System.Drawing.Point(272, 12);
+            this.btnModificar.Location = new System.Drawing.Point(317, 14);
+            this.btnModificar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(75, 54);
+            this.btnModificar.Size = new System.Drawing.Size(88, 62);
             this.btnModificar.TabIndex = 0;
             this.btnModificar.TabStop = false;
             this.btnModificar.Text = "Modificar";
@@ -862,9 +928,10 @@ namespace GestionClientesAPP.Forms
             // 
             this.btnAñadir.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnAñadir.Image = global::GestionClientesAPP.Properties.Resources.plus_small_free_icon_font__1_;
-            this.btnAñadir.Location = new System.Drawing.Point(191, 12);
+            this.btnAñadir.Location = new System.Drawing.Point(223, 14);
+            this.btnAñadir.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAñadir.Name = "btnAñadir";
-            this.btnAñadir.Size = new System.Drawing.Size(75, 54);
+            this.btnAñadir.Size = new System.Drawing.Size(88, 62);
             this.btnAñadir.TabIndex = 0;
             this.btnAñadir.TabStop = false;
             this.btnAñadir.Text = "Añadir";
@@ -875,9 +942,10 @@ namespace GestionClientesAPP.Forms
             // RTBobservaciones
             // 
             this.RTBobservaciones.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.RTBobservaciones.Location = new System.Drawing.Point(936, 97);
+            this.RTBobservaciones.Location = new System.Drawing.Point(1092, 112);
+            this.RTBobservaciones.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RTBobservaciones.Name = "RTBobservaciones";
-            this.RTBobservaciones.Size = new System.Drawing.Size(211, 87);
+            this.RTBobservaciones.Size = new System.Drawing.Size(245, 100);
             this.RTBobservaciones.TabIndex = 0;
             this.RTBobservaciones.TabStop = false;
             this.RTBobservaciones.Text = "";
@@ -885,8 +953,9 @@ namespace GestionClientesAPP.Forms
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label20.Location = new System.Drawing.Point(933, 76);
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label20.Location = new System.Drawing.Point(1088, 88);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(103, 17);
             this.label20.TabIndex = 32;
@@ -898,17 +967,19 @@ namespace GestionClientesAPP.Forms
             this.DGresumen.BackgroundColor = System.Drawing.Color.White;
             this.DGresumen.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGresumen.GridColor = System.Drawing.Color.Black;
-            this.DGresumen.Location = new System.Drawing.Point(22, 660);
+            this.DGresumen.Location = new System.Drawing.Point(26, 762);
+            this.DGresumen.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.DGresumen.Name = "DGresumen";
-            this.DGresumen.Size = new System.Drawing.Size(552, 158);
+            this.DGresumen.Size = new System.Drawing.Size(644, 182);
             this.DGresumen.TabIndex = 0;
             this.DGresumen.TabStop = false;
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label22.Location = new System.Drawing.Point(20, 640);
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label22.Location = new System.Drawing.Point(23, 738);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(68, 17);
             this.label22.TabIndex = 34;
@@ -917,8 +988,9 @@ namespace GestionClientesAPP.Forms
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label23.Location = new System.Drawing.Point(35, 23);
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label23.Location = new System.Drawing.Point(41, 27);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(38, 17);
             this.label23.TabIndex = 35;
@@ -927,8 +999,9 @@ namespace GestionClientesAPP.Forms
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label24.Location = new System.Drawing.Point(44, 66);
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label24.Location = new System.Drawing.Point(51, 76);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(29, 17);
             this.label24.TabIndex = 36;
@@ -937,8 +1010,9 @@ namespace GestionClientesAPP.Forms
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label25.Location = new System.Drawing.Point(27, 105);
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label25.Location = new System.Drawing.Point(31, 121);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(62, 17);
             this.label25.TabIndex = 37;
@@ -947,8 +1021,9 @@ namespace GestionClientesAPP.Forms
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label26.Location = new System.Drawing.Point(27, 141);
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label26.Location = new System.Drawing.Point(31, 163);
+            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(62, 17);
             this.label26.TabIndex = 38;
@@ -957,44 +1032,49 @@ namespace GestionClientesAPP.Forms
             // TBnetoTotal
             // 
             this.TBnetoTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBnetoTotal.Location = new System.Drawing.Point(103, 20);
+            this.TBnetoTotal.Location = new System.Drawing.Point(120, 23);
+            this.TBnetoTotal.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBnetoTotal.Name = "TBnetoTotal";
-            this.TBnetoTotal.Size = new System.Drawing.Size(147, 20);
+            this.TBnetoTotal.Size = new System.Drawing.Size(171, 23);
             this.TBnetoTotal.TabIndex = 0;
             this.TBnetoTotal.TabStop = false;
             // 
             // TBivaTotal
             // 
             this.TBivaTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBivaTotal.Location = new System.Drawing.Point(103, 63);
+            this.TBivaTotal.Location = new System.Drawing.Point(120, 73);
+            this.TBivaTotal.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBivaTotal.Name = "TBivaTotal";
-            this.TBivaTotal.Size = new System.Drawing.Size(147, 20);
+            this.TBivaTotal.Size = new System.Drawing.Size(171, 23);
             this.TBivaTotal.TabIndex = 0;
             this.TBivaTotal.TabStop = false;
             // 
             // TBrecargoTotal
             // 
             this.TBrecargoTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBrecargoTotal.Location = new System.Drawing.Point(103, 102);
+            this.TBrecargoTotal.Location = new System.Drawing.Point(120, 118);
+            this.TBrecargoTotal.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBrecargoTotal.Name = "TBrecargoTotal";
-            this.TBrecargoTotal.Size = new System.Drawing.Size(147, 20);
+            this.TBrecargoTotal.Size = new System.Drawing.Size(171, 23);
             this.TBrecargoTotal.TabIndex = 0;
             this.TBrecargoTotal.TabStop = false;
             // 
             // TBirpfTotal
             // 
             this.TBirpfTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBirpfTotal.Location = new System.Drawing.Point(103, 138);
+            this.TBirpfTotal.Location = new System.Drawing.Point(120, 159);
+            this.TBirpfTotal.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBirpfTotal.Name = "TBirpfTotal";
-            this.TBirpfTotal.Size = new System.Drawing.Size(147, 20);
+            this.TBirpfTotal.Size = new System.Drawing.Size(171, 23);
             this.TBirpfTotal.TabIndex = 0;
             this.TBirpfTotal.TabStop = false;
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(283, 139);
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label27.Location = new System.Drawing.Point(330, 160);
+            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(60, 18);
             this.label27.TabIndex = 43;
@@ -1003,9 +1083,10 @@ namespace GestionClientesAPP.Forms
             // TBtotalAcumulado
             // 
             this.TBtotalAcumulado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TBtotalAcumulado.Location = new System.Drawing.Point(349, 138);
+            this.TBtotalAcumulado.Location = new System.Drawing.Point(407, 159);
+            this.TBtotalAcumulado.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TBtotalAcumulado.Name = "TBtotalAcumulado";
-            this.TBtotalAcumulado.Size = new System.Drawing.Size(209, 20);
+            this.TBtotalAcumulado.Size = new System.Drawing.Size(243, 23);
             this.TBtotalAcumulado.TabIndex = 0;
             this.TBtotalAcumulado.TabStop = false;
             // 
@@ -1021,9 +1102,11 @@ namespace GestionClientesAPP.Forms
             this.Total.Controls.Add(this.label27);
             this.Total.Controls.Add(this.TBtotalAcumulado);
             this.Total.Controls.Add(this.label26);
-            this.Total.Location = new System.Drawing.Point(583, 640);
+            this.Total.Location = new System.Drawing.Point(680, 738);
+            this.Total.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Total.Name = "Total";
-            this.Total.Size = new System.Drawing.Size(564, 178);
+            this.Total.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Total.Size = new System.Drawing.Size(658, 205);
             this.Total.TabIndex = 45;
             this.Total.TabStop = false;
             this.Total.Text = "Total";
@@ -1045,17 +1128,18 @@ namespace GestionClientesAPP.Forms
             // 
             // panelImpresion
             // 
-            this.panelImpresion.Location = new System.Drawing.Point(12, 10);
+            this.panelImpresion.Location = new System.Drawing.Point(14, 12);
+            this.panelImpresion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panelImpresion.Name = "panelImpresion";
-            this.panelImpresion.Size = new System.Drawing.Size(1155, 832);
+            this.panelImpresion.Size = new System.Drawing.Size(1348, 960);
             this.panelImpresion.TabIndex = 46;
             // 
             // FormAlbaranes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1211, 854);
+            this.ClientSize = new System.Drawing.Size(1413, 985);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.DGresumen);
             this.Controls.Add(this.label20);
@@ -1093,6 +1177,7 @@ namespace GestionClientesAPP.Forms
             this.Controls.Add(this.btnAñadir);
             this.Controls.Add(this.Total);
             this.Controls.Add(this.panelImpresion);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "FormAlbaranes";
             this.Text = "Albaranes";
             this.groupBox1.ResumeLayout(false);
