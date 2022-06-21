@@ -14,14 +14,17 @@ namespace GestionClientesAPP.domain
 
         public double tipoImpuesto { get; set; }
 
+        public Cliente cliente { get; set; }
+
 
         public Articulo() { }
 
-        public Articulo(string descripcion, float precio, double tipoImpuesto)
+        public Articulo(string descripcion, float precio, double tipoImpuesto, Cliente cliente)
         {
             this.descripcion = descripcion;
             this.precio = precio;
-            this.tipoImpuesto = tipoImpuesto; 
+            this.tipoImpuesto = tipoImpuesto;
+            this.cliente = cliente; 
         }
 
     }

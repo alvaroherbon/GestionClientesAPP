@@ -19,13 +19,8 @@ namespace GestionClientesAPP.Forms
         public FormAlbaranes()
         {
             InitializeComponent();
-            List<Cliente> clientes1 = context.Clientes.ToList(); 
-            foreach (Cliente cliente in clientes1)
-            {
-                Object o = cliente.clienteID + " " + cliente.nombre;
-                CBCliente.Items.Add(o);
-            }
-            
+            CBCliente.DataSource = context.Clientes.Select(g => g.clienteID + " " + g.nombre).ToList();
+            CBCliente.SelectedItem = CBCliente.Items[0];
 
 
         }
@@ -211,8 +206,9 @@ namespace GestionClientesAPP.Forms
 
         private void CBCliente_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Cliente cliente = context.Clientes.Find(CBCliente.SelectedItem.ToString()[0]);
-            List<Articulo> articulos = cliente.articulos; 
+            CBarticulo.DataSource = null; 
+            Cliente cliente = context.Clientes.Find(int.Parse(CBCliente.Text.Split(" ")[0]));
+            CBarticulo.DataSource = cliente.articulos.Select(g => g.ArticuloId + " " + g.descripcion).ToList(); 
         }
 
         private void CBarticulo_SelectedIndexChanged(object sender, EventArgs e)

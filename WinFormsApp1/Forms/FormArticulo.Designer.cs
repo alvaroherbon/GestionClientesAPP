@@ -29,10 +29,9 @@ namespace GestionClientesAPP.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.TBcodigo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.TBdescripcion = new System.Windows.Forms.TextBox();
+            this.TBnombreArticulo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.TBprecio = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -41,15 +40,8 @@ namespace GestionClientesAPP.Forms
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnAñadir = new System.Windows.Forms.Button();
+            this.CBCliente = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
-            // 
-            // TBcodigo
-            // 
-            this.TBcodigo.Location = new System.Drawing.Point(211, 96);
-            this.TBcodigo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.TBcodigo.Name = "TBcodigo";
-            this.TBcodigo.Size = new System.Drawing.Size(481, 23);
-            this.TBcodigo.TabIndex = 15;
             // 
             // label1
             // 
@@ -58,9 +50,9 @@ namespace GestionClientesAPP.Forms
             this.label1.Location = new System.Drawing.Point(99, 97);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 16);
+            this.label1.Size = new System.Drawing.Size(48, 16);
             this.label1.TabIndex = 16;
-            this.label1.Text = "Código";
+            this.label1.Text = "Cliente";
             // 
             // label2
             // 
@@ -69,17 +61,17 @@ namespace GestionClientesAPP.Forms
             this.label2.Location = new System.Drawing.Point(99, 132);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 16);
+            this.label2.Size = new System.Drawing.Size(103, 16);
             this.label2.TabIndex = 17;
-            this.label2.Text = "Descripción";
+            this.label2.Text = "Nombre Artículo";
             // 
-            // TBdescripcion
+            // TBnombreArticulo
             // 
-            this.TBdescripcion.Location = new System.Drawing.Point(211, 132);
-            this.TBdescripcion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.TBdescripcion.Name = "TBdescripcion";
-            this.TBdescripcion.Size = new System.Drawing.Size(481, 23);
-            this.TBdescripcion.TabIndex = 18;
+            this.TBnombreArticulo.Location = new System.Drawing.Point(211, 132);
+            this.TBnombreArticulo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.TBnombreArticulo.Name = "TBnombreArticulo";
+            this.TBnombreArticulo.Size = new System.Drawing.Size(481, 23);
+            this.TBnombreArticulo.TabIndex = 18;
             // 
             // label3
             // 
@@ -177,19 +169,27 @@ namespace GestionClientesAPP.Forms
             this.btnAñadir.UseVisualStyleBackColor = false;
             this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
+            // CBCliente
+            // 
+            this.CBCliente.FormattingEnabled = true;
+            this.CBCliente.Location = new System.Drawing.Point(211, 95);
+            this.CBCliente.Name = "CBCliente";
+            this.CBCliente.Size = new System.Drawing.Size(293, 23);
+            this.CBCliente.TabIndex = 23;
+            // 
             // FormArticulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 395);
+            this.Controls.Add(this.CBCliente);
             this.Controls.Add(this.CBtipoImpuesto);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.TBprecio);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.TBdescripcion);
+            this.Controls.Add(this.TBnombreArticulo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.TBcodigo);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModificar);
@@ -207,13 +207,13 @@ namespace GestionClientesAPP.Forms
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnAñadir;
-        private System.Windows.Forms.TextBox TBcodigo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox TBdescripcion;
+        private System.Windows.Forms.TextBox TBnombreArticulo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox TBprecio;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox CBtipoImpuesto;
+        private System.Windows.Forms.ComboBox CBCliente;
     }
 }

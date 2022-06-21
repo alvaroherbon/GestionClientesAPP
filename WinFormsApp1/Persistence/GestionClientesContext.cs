@@ -11,6 +11,12 @@ namespace GestionClientesAPP.Persistence
         public GestionClientesContext() : base("BDGestionClientes")
         {
             Database.SetInitializer<GestionClientesContext>(new DropCreateDatabaseIfModelChanges<GestionClientesContext>()); 
+
+        }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<LineaAlbaran> lineasAlbaranes { get; set; }
@@ -21,6 +27,8 @@ namespace GestionClientesAPP.Persistence
         public DbSet<Precio> Precios { get; set; }
 
         public DbSet<Albaran> Albaranes { get; set; }
+
+        public DbSet<Articulo> Articulos { get; set;  }
 
     }
 }

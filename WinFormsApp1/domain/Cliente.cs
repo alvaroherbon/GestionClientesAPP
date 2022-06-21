@@ -33,9 +33,9 @@ namespace GestionClientesAPP.domain
 
         public DateTime fechaAlta { get; set; }
 
-        public ICollection<FormaDePago> formasDePago { get; set; }
+        public virtual ICollection<FormaDePago> formasDePago { get; set; }
 
-        public ICollection<Precio> precios { get; set; }
+        public virtual ICollection<Articulo> articulos { get; set; }
 
         public Cliente() { }
        
@@ -56,7 +56,20 @@ namespace GestionClientesAPP.domain
             this.pais = pais;
             this.descuento1 = descuento1;
             this.descuento2 = descuento2;
-            this.fechaAlta = fechaAlta; 
+            this.fechaAlta = fechaAlta;
+            this.formasDePago = new HashSet<FormaDePago>();
+            this.articulos = new HashSet<Articulo>(); 
+        }
+
+        public void addArticulo(Articulo articulo)
+        {
+            this.articulos.Add(articulo);
+        }
+
+        public void addFormaPago(FormaDePago formaDePago)
+        {
+            this.formasDePago.Add(formaDePago);
+
         }
 
 
